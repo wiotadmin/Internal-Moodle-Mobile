@@ -5909,7 +5909,7 @@ angular.module('mm.core.login', [])
         templateUrl: 'core/components/login/templates/site.html',
         controller: 'mmLoginSiteCtrl',
 		onEnter: function($state) {
-        	$state.go('mm_login.credentials', {siteurl: 'https://moodle9.wodongatafe.edu.au'});
+        	$state.go('mm_login.credentials', {siteurl: 'http://moodle9.wodongatafe.edu.au'});
     	}
     })
     .state('mm_login.credentials', {
